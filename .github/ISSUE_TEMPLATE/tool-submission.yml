@@ -1,0 +1,73 @@
+name: Tool or integration submission
+description: Propose a tool, MCP server, or integration to add to the repository
+title: "[Tool] "
+labels: ["tool-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For a reusable agent skill (markdown instructions), use the **Skill
+        submission** template instead. This one is for software: tools, MCP
+        servers, and integrations.
+
+  - type: input
+    id: name
+    attributes:
+      label: Tool or integration name
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      placeholder: https://
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What does it do?
+      description: A clear, non-promotional description of its functionality.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: agents
+    attributes:
+      label: Agent / MCP compatibility (check all that apply)
+      options:
+        - label: MCP-compatible
+        - label: Claude Code compatible
+        - label: Codex compatible
+        - label: OpenClaw compatible
+        - label: Agent-agnostic (usable via API/CLI regardless of agent)
+
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: The tool's own license (not this repository's).
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: disclosure
+    attributes:
+      label: Disclosure
+      options:
+        - label: I have no commercial affiliation with this tool
+        - label: I do have a commercial affiliation (I built it, work for the company, or am paid to promote it), and have said so above
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: criteria
+    attributes:
+      label: Acceptance criteria
+      options:
+        - label: This is useful on its own, not just a referral or affiliate link
+          required: true
+        - label: I've read CONTRIBUTING.md
+          required: true

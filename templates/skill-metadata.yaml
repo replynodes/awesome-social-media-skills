@@ -1,0 +1,47 @@
+# Metadata schema for skills in this repository.
+#
+# This file documents the schema and gives a filled-in example. It is not
+# required for a submission — the frontmatter in SKILL.md is the source of
+# truth for a skill's metadata. This file exists so the repository can later
+# be indexed automatically (search, a website, a package registry) without
+# re-parsing markdown frontmatter by hand.
+#
+# Field reference:
+#   name                  string, required   Human-readable skill name
+#   slug                  string, required   Matches the filename, kebab-case
+#   description           string, required   One sentence, <= 160 characters
+#   version               string, required   Semantic version, e.g. 0.1.0
+#   author                string, required   Name, handle, or org
+#   license               string, required   SPDX identifier, e.g. MIT
+#   category              string, required   One of the skills/ directory names
+#   platforms             list,   required   One or more of: x, linkedin, instagram,
+#                                            tiktok, youtube, threads, reddit,
+#                                            facebook, bluesky, mastodon, agnostic
+#   agent_compatibility   list,   required   One or more of: agent-agnostic,
+#                                            claude-code-compatible, codex-compatible,
+#                                            openclaw-compatible, mcp-compatible
+#   tags                  list,   optional   Free-form search keywords
+#   quality_label         string, optional   featured | verified | community
+#                                            (set by maintainers, not contributors)
+#   path                  string, required   Relative path to the skill file
+#   related_skills        list,   optional   Slugs of related skills
+
+name: "Skill Name"
+slug: skill-name
+description: "One sentence describing what this skill does and the outcome it produces."
+version: "0.1.0"
+author: "your-name-or-handle"
+license: "MIT"
+category: content-strategy
+platforms:
+  - agnostic
+agent_compatibility:
+  - agent-agnostic
+tags:
+  - tag-one
+  - tag-two
+quality_label: community
+path: skills/content-strategy/skill-name.md
+related_skills:
+  - related-skill-one
+  - related-skill-two

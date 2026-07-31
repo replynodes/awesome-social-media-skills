@@ -1,0 +1,28 @@
+name: Link check
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+  push:
+    branches: [main]
+    paths:
+      - "**/*.md"
+  schedule:
+    - cron: "0 6 * * 1"
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --exclude-mail
+            --accept 200,204,206,301,302,308,429
+            "**/*.md"
+          fail: true

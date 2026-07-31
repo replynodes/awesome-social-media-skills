@@ -1,0 +1,81 @@
+name: Skill submission
+description: Propose a new agent skill or get early feedback before opening a pull request
+title: "[Skill] "
+labels: ["skill-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a skill. See [CONTRIBUTING.md](../../CONTRIBUTING.md)
+        and [docs/skill-format.md](../../docs/skill-format.md) for the full format
+        and acceptance criteria. You can use this issue to get feedback before
+        writing the full skill, or reference it from your pull request.
+
+  - type: input
+    id: name
+    attributes:
+      label: Skill name
+      placeholder: e.g. Podcast Quote Extractor
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - content-strategy
+        - research
+        - writing
+        - video
+        - images
+        - repurposing
+        - publishing
+        - analytics
+        - engagement
+    validations:
+      required: true
+
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose
+      description: What does this skill do, and what outcome does it produce?
+    validations:
+      required: true
+
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Inputs
+      description: What does the skill need to run?
+    validations:
+      required: true
+
+  - type: textarea
+    id: example
+    attributes:
+      label: Example input/output
+      description: A realistic example, even a rough one.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: disclosure
+    attributes:
+      label: Disclosure
+      options:
+        - label: I have no commercial affiliation with any product referenced in this skill
+        - label: I do have a commercial affiliation, and have disclosed it above
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: criteria
+    attributes:
+      label: Acceptance criteria
+      options:
+        - label: This skill does not claim or imply guaranteed engagement, virality, or revenue
+          required: true
+        - label: I've read CONTRIBUTING.md
+          required: true

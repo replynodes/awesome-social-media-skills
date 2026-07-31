@@ -1,0 +1,40 @@
+name: Bug report
+description: Report a broken link, incorrect instructions, or a quality problem with an existing entry
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: File or URL
+      description: Path within the repo, e.g. skills/writing/x-thread-creator.md
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of problem
+      options:
+        - Broken link
+        - Incorrect or misleading instructions
+        - Formatting / rendering issue
+        - Outdated information
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What's wrong?
+      description: What did you expect, and what did you find instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix (optional)
+    validations:
+      required: false

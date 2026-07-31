@@ -1,0 +1,9 @@
+# Markdown lint config for this repository.
+#
+# MD013 (line-length) and MD060 (table-column-style) are disabled: this repo
+# is prose- and table-heavy documentation, and both rules are purely
+# cosmetic — they don't affect how GitHub renders the content.
+config:
+  MD013: false
+  MD060: false
+  MD041: false
