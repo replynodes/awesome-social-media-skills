@@ -1,0 +1,630 @@
+{
+  "generated_by": "scripts/generate_index.py",
+  "skill_count": 26,
+  "skills": [
+    {
+      "name": "Performance Insight Analyzer",
+      "slug": "performance-insight-analyzer",
+      "description": "Analyzes provided post performance data and surfaces specific, actionable patterns rather than a generic summary.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "analytics",
+      "platforms": [
+        "agnostic"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic",
+        "mcp-compatible"
+      ],
+      "tags": [
+        "analytics",
+        "performance",
+        "insights"
+      ],
+      "quality_label": "community",
+      "path": "skills/analytics/performance-insight-analyzer.md"
+    },
+    {
+      "name": "Social Post Experiment Designer",
+      "slug": "social-post-experiment-designer",
+      "description": "Designs a structured A/B test for a content variable (hook, format, timing) with a clear hypothesis and success criteria.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "analytics",
+      "platforms": [
+        "agnostic"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic"
+      ],
+      "tags": [
+        "experimentation",
+        "ab-testing",
+        "analytics"
+      ],
+      "quality_label": "community",
+      "path": "skills/analytics/social-post-experiment-designer.md"
+    },
+    {
+      "name": "Weekly Content Review Agent",
+      "slug": "weekly-content-review-agent",
+      "description": "Runs a recurring weekly review that summarizes what published, how it performed, and what to adjust for the next cycle.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "analytics",
+      "platforms": [
+        "agnostic"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic",
+        "mcp-compatible"
+      ],
+      "tags": [
+        "analytics",
+        "weekly-review",
+        "workflow"
+      ],
+      "quality_label": "community",
+      "path": "skills/analytics/weekly-content-review-agent.md"
+    },
+    {
+      "name": "Brand Voice Extractor",
+      "slug": "brand-voice-extractor",
+      "description": "Analyzes a sample of existing content and produces a reusable brand voice profile agents can apply to new writing.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "content-strategy",
+      "platforms": [
+        "agnostic"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic",
+        "claude-code-compatible"
+      ],
+      "tags": [
+        "brand-voice",
+        "tone",
+        "style-guide",
+        "consistency"
+      ],
+      "quality_label": "community",
+      "path": "skills/content-strategy/brand-voice-extractor.md"
+    },
+    {
+      "name": "Content Brief Generator",
+      "slug": "content-brief-generator",
+      "description": "Expands a topic and pillar into a structured brief a writer or agent can execute without further clarification.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "content-strategy",
+      "platforms": [
+        "agnostic"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic",
+        "claude-code-compatible"
+      ],
+      "tags": [
+        "brief",
+        "planning",
+        "writing-handoff"
+      ],
+      "quality_label": "community",
+      "path": "skills/content-strategy/content-brief-generator.md"
+    },
+    {
+      "name": "Content Calendar Planner",
+      "slug": "content-calendar-planner",
+      "description": "Converts content pillars and a posting cadence into a scheduled, platform-aware content calendar.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "content-strategy",
+      "platforms": [
+        "agnostic"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic",
+        "mcp-compatible"
+      ],
+      "tags": [
+        "calendar",
+        "scheduling",
+        "planning"
+      ],
+      "quality_label": "community",
+      "path": "skills/content-strategy/content-calendar-planner.md"
+    },
+    {
+      "name": "Content Pillar Generator",
+      "slug": "content-pillar-generator",
+      "description": "Turns a business or personal brand description into a set of focused content pillars to organize future content around.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "content-strategy",
+      "platforms": [
+        "agnostic"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic",
+        "claude-code-compatible"
+      ],
+      "tags": [
+        "content-pillars",
+        "strategy",
+        "planning"
+      ],
+      "quality_label": "community",
+      "path": "skills/content-strategy/content-pillar-generator.md"
+    },
+    {
+      "name": "Product Launch Content Planner",
+      "slug": "product-launch-content-planner",
+      "description": "Builds a coordinated content plan across platforms and time for a product or feature launch.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "content-strategy",
+      "platforms": [
+        "agnostic"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic"
+      ],
+      "tags": [
+        "product-launch",
+        "planning",
+        "campaign"
+      ],
+      "quality_label": "community",
+      "path": "skills/content-strategy/product-launch-content-planner.md"
+    },
+    {
+      "name": "Comment Theme Analyzer",
+      "slug": "comment-theme-analyzer",
+      "description": "Groups raw comments into recurring themes to surface what an audience is actually reacting to or asking.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "engagement",
+      "platforms": [
+        "agnostic"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic"
+      ],
+      "tags": [
+        "comments",
+        "community",
+        "engagement-analysis"
+      ],
+      "quality_label": "community",
+      "path": "skills/engagement/comment-theme-analyzer.md"
+    },
+    {
+      "name": "Reply Suggestion Assistant",
+      "slug": "reply-suggestion-assistant",
+      "description": "Drafts reply suggestions for comments or questions, in brand voice, for a human to review and send.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "engagement",
+      "platforms": [
+        "agnostic"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic"
+      ],
+      "tags": [
+        "replies",
+        "community",
+        "engagement"
+      ],
+      "quality_label": "community",
+      "path": "skills/engagement/reply-suggestion-assistant.md"
+    },
+    {
+      "name": "Carousel Content Designer",
+      "slug": "carousel-content-designer",
+      "description": "Structures a topic into a slide-by-slide carousel outline for LinkedIn or Instagram, with per-slide text and visual notes.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "images",
+      "platforms": [
+        "linkedin",
+        "instagram"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic"
+      ],
+      "tags": [
+        "carousel",
+        "visual-content",
+        "image-generation-prompts"
+      ],
+      "quality_label": "community",
+      "path": "skills/images/carousel-content-designer.md"
+    },
+    {
+      "name": "Social Graphic Prompt Builder",
+      "slug": "social-graphic-prompt-builder",
+      "description": "Turns a single idea, quote, or stat into a structured image-generation prompt and layout spec for a standalone social graphic.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "images",
+      "platforms": [
+        "x",
+        "linkedin",
+        "instagram",
+        "facebook",
+        "threads"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic"
+      ],
+      "tags": [
+        "image-generation-prompts",
+        "social-graphics",
+        "visual-content"
+      ],
+      "quality_label": "community",
+      "path": "skills/images/social-graphic-prompt-builder.md"
+    },
+    {
+      "name": "Content Quality Reviewer",
+      "slug": "content-quality-reviewer",
+      "description": "Reviews a finished draft against voice, claims, platform constraints, and policy risk before it moves to publishing.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "publishing",
+      "platforms": [
+        "agnostic"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic",
+        "mcp-compatible"
+      ],
+      "tags": [
+        "review",
+        "approval",
+        "quality-gate"
+      ],
+      "quality_label": "community",
+      "path": "skills/publishing/content-quality-reviewer.md"
+    },
+    {
+      "name": "Cross-Platform Publishing Formatter",
+      "slug": "cross-platform-publishing-formatter",
+      "description": "Takes approved content and formats it into a structured, platform-tagged publishing queue ready for a scheduling or publishing layer.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "publishing",
+      "platforms": [
+        "x",
+        "linkedin",
+        "instagram",
+        "tiktok",
+        "youtube",
+        "threads",
+        "reddit",
+        "facebook",
+        "bluesky",
+        "mastodon"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic",
+        "mcp-compatible"
+      ],
+      "tags": [
+        "publishing",
+        "scheduling",
+        "queue",
+        "mcp"
+      ],
+      "quality_label": "community",
+      "path": "skills/publishing/cross-platform-publishing-formatter.md"
+    },
+    {
+      "name": "Blog-to-Multi-Platform Repurposer",
+      "slug": "blog-to-multi-platform-repurposer",
+      "description": "Extracts distinct, platform-ready ideas from a blog post or article, preserving the source's argument accurately.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "repurposing",
+      "platforms": [
+        "x",
+        "linkedin",
+        "instagram"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic",
+        "mcp-compatible"
+      ],
+      "tags": [
+        "repurposing",
+        "blog",
+        "content-atomization"
+      ],
+      "quality_label": "community",
+      "path": "skills/repurposing/blog-to-multi-platform-repurposer.md"
+    },
+    {
+      "name": "Multi-Platform Content Adapter",
+      "slug": "multi-platform-content-adapter",
+      "description": "Adapts one piece of content into platform-native versions for multiple platforms without simply copy-pasting the same text.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "repurposing",
+      "platforms": [
+        "x",
+        "linkedin",
+        "instagram",
+        "tiktok",
+        "threads",
+        "reddit",
+        "facebook",
+        "bluesky",
+        "mastodon"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic",
+        "mcp-compatible"
+      ],
+      "tags": [
+        "repurposing",
+        "cross-platform",
+        "adaptation"
+      ],
+      "quality_label": "community",
+      "path": "skills/repurposing/multi-platform-content-adapter.md"
+    },
+    {
+      "name": "YouTube-to-Social Repurposer",
+      "slug": "youtube-to-social-repurposer",
+      "description": "Extracts distinct, standalone content ideas from a YouTube video transcript, ready to adapt into platform-specific posts.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "repurposing",
+      "platforms": [
+        "youtube",
+        "x",
+        "linkedin",
+        "instagram"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic",
+        "mcp-compatible"
+      ],
+      "tags": [
+        "repurposing",
+        "youtube",
+        "video-to-text"
+      ],
+      "quality_label": "community",
+      "path": "skills/repurposing/youtube-to-social-repurposer.md"
+    },
+    {
+      "name": "Audience Pain-Point Researcher",
+      "slug": "audience-pain-point-researcher",
+      "description": "Synthesizes audience pain points from provided source material (forums, reviews, support tickets, interviews) into ranked, content-ready themes.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "research",
+      "platforms": [
+        "agnostic"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic"
+      ],
+      "tags": [
+        "audience-research",
+        "pain-points",
+        "discovery"
+      ],
+      "quality_label": "community",
+      "path": "skills/research/audience-pain-point-researcher.md"
+    },
+    {
+      "name": "Content Claim Verifier",
+      "slug": "content-claim-verifier",
+      "description": "Checks factual claims in a content draft against provided sources and flags anything unsupported before publishing.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "research",
+      "platforms": [
+        "agnostic"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic"
+      ],
+      "tags": [
+        "fact-checking",
+        "verification",
+        "quality"
+      ],
+      "quality_label": "community",
+      "path": "skills/research/content-claim-verifier.md"
+    },
+    {
+      "name": "Social Content Idea Validator",
+      "slug": "social-content-idea-validator",
+      "description": "Pressure-tests a content idea against audience relevance, specificity, and differentiation before time is spent writing it.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "research",
+      "platforms": [
+        "agnostic"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic"
+      ],
+      "tags": [
+        "validation",
+        "idea-screening",
+        "research"
+      ],
+      "quality_label": "community",
+      "path": "skills/research/social-content-idea-validator.md"
+    },
+    {
+      "name": "Long-Form to Clips Planner",
+      "slug": "long-form-to-clips-planner",
+      "description": "Identifies clip-worthy moments in a long-form video transcript, with timestamps, for an editor to cut into short-form video.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "video",
+      "platforms": [
+        "tiktok",
+        "instagram",
+        "youtube"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic"
+      ],
+      "tags": [
+        "video-repurposing",
+        "clips",
+        "long-form-video",
+        "timestamps"
+      ],
+      "quality_label": "community",
+      "path": "skills/video/long-form-to-clips-planner.md"
+    },
+    {
+      "name": "Short-Form Video Hook Generator",
+      "slug": "short-form-video-hook-generator",
+      "description": "Generates multiple opening-line candidates for a short-form video, built to survive the first 2-3 seconds of scroll attention.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "video",
+      "platforms": [
+        "tiktok",
+        "instagram",
+        "youtube"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic"
+      ],
+      "tags": [
+        "short-form-video",
+        "hooks",
+        "tiktok",
+        "reels",
+        "shorts"
+      ],
+      "quality_label": "community",
+      "path": "skills/video/short-form-video-hook-generator.md"
+    },
+    {
+      "name": "Video Script Writer",
+      "slug": "video-script-writer",
+      "description": "Writes a structured video script (short-form or YouTube long-form) from a hook, key point, and supporting material.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "video",
+      "platforms": [
+        "tiktok",
+        "instagram",
+        "youtube"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic"
+      ],
+      "tags": [
+        "video-script",
+        "youtube",
+        "short-form-video"
+      ],
+      "quality_label": "community",
+      "path": "skills/video/video-script-writer.md"
+    },
+    {
+      "name": "Founder Story Extractor",
+      "slug": "founder-story-extractor",
+      "description": "Extracts a specific, narrative-ready story from a founder's raw account of an event, decision, or lesson.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "writing",
+      "platforms": [
+        "agnostic"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic"
+      ],
+      "tags": [
+        "storytelling",
+        "founder-content",
+        "narrative"
+      ],
+      "quality_label": "community",
+      "path": "skills/writing/founder-story-extractor.md"
+    },
+    {
+      "name": "LinkedIn Thought-Leadership Writer",
+      "slug": "linkedin-thought-leadership-writer",
+      "description": "Writes a LinkedIn post from a brief, in a specific voice, following LinkedIn-native structure and length conventions.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "writing",
+      "platforms": [
+        "linkedin"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic",
+        "claude-code-compatible"
+      ],
+      "tags": [
+        "linkedin",
+        "writing",
+        "thought-leadership"
+      ],
+      "quality_label": "community",
+      "path": "skills/writing/linkedin-thought-leadership-writer.md"
+    },
+    {
+      "name": "X Thread Creator",
+      "slug": "x-thread-creator",
+      "description": "Converts a brief or long-form idea into a structured X/Twitter thread with a hook post and a coherent post sequence.",
+      "version": "0.1.0",
+      "author": "replynodes",
+      "license": "MIT",
+      "category": "writing",
+      "platforms": [
+        "x"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic",
+        "claude-code-compatible"
+      ],
+      "tags": [
+        "x",
+        "twitter",
+        "threads",
+        "writing"
+      ],
+      "quality_label": "community",
+      "path": "skills/writing/x-thread-creator.md"
+    }
+  ]
+}

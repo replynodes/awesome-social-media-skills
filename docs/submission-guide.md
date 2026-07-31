@@ -45,13 +45,21 @@ example from your own instructions, tighten them.
 Add a row to the relevant `skills/<category>/README.md` table so it shows
 up in navigation, not just in the file tree.
 
-## 6. Open a pull request
+## 6. Regenerate the skill index
+
+Run `python3 scripts/generate_index.py` and commit the updated `index.json`
+alongside your skill. This also validates your frontmatter — it will fail
+loudly if a required field is missing or `category` doesn't match the
+directory your file is in. CI runs the same check (`--check` mode) and
+will fail the pull request if `index.json` wasn't regenerated.
+
+## 7. Open a pull request
 
 Use the pull request template. Reference any related issue. If you have a
 commercial affiliation with what you're submitting, disclose it in the PR
 description — see [CONTRIBUTING.md](../CONTRIBUTING.md#disclosure-requirement).
 
-## 7. Respond to review
+## 8. Respond to review
 
 A maintainer will check the submission against the acceptance criteria and
 may ask for changes — most accepted skills go through at least one round of

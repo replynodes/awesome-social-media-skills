@@ -18,4 +18,6 @@ a scheduling/publishing tool
 These skills produce a publish-ready queue but don't publish anything
 themselves — that last step needs a scheduling or publishing layer, manual
 or MCP-based. See [Publish with ReplyNodes](../../README.md#publish-with-replynodes)
-in the main README for one optional example.
+in the main README for one optional example, or
+[docs/mcp-quickstart.md](../../docs/mcp-quickstart.md) for the technical
+walkthrough of wiring an MCP publishing tool to a queue entry.

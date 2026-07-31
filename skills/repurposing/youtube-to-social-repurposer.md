@@ -96,3 +96,4 @@ own social post — rather than a single generic summary of the video.
 - [`multi-platform-content-adapter`](multi-platform-content-adapter.md) — turns each extracted idea into final platform copy
 - [`content-claim-verifier`](../research/content-claim-verifier.md) — verify extracted claims before publishing
 - [`content-calendar-planner`](../content-strategy/content-calendar-planner.md) — schedule the extracted ideas
+- [`long-form-to-clips-planner`](../video/long-form-to-clips-planner.md) — the video-clip equivalent of this extraction (timestamps, not text ideas)

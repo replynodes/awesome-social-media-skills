@@ -87,8 +87,8 @@ walkthroughs.
 | Plan | [Content Strategy](skills/content-strategy/) | Brand voice, pillars, calendars, briefs, launch planning |
 | Research | [Research](skills/research/) | Audience pain points, idea validation, claim verification |
 | Create | [Writing](skills/writing/) | Platform-native post writing, hooks, storytelling |
-| Create | [Video](skills/video/) | Short-form hooks, video scripts |
-| Create | [Images and Creative](skills/images/) | Carousel and visual content structure |
+| Create | [Video](skills/video/) | Short-form hooks, video scripts, long-form clip planning |
+| Create | [Images and Creative](skills/images/) | Carousel and single-graphic visual structure |
 | Repurpose | [Content Repurposing](skills/repurposing/) | Video/blog to social, multi-platform adaptation |
 | Publish | [Publishing](skills/publishing/) | Quality review, approval, cross-platform formatting |
 | Analyze | [Analytics and Optimization](skills/analytics/) | Experiment design, performance analysis, weekly review |
@@ -104,7 +104,7 @@ Skills tagged for each platform, via their frontmatter `platforms` field:
 | LinkedIn | [LinkedIn Thought-Leadership Writer](skills/writing/linkedin-thought-leadership-writer.md), [Carousel Content Designer](skills/images/carousel-content-designer.md) |
 | Instagram | [Carousel Content Designer](skills/images/carousel-content-designer.md), [Multi-Platform Content Adapter](skills/repurposing/multi-platform-content-adapter.md) |
 | TikTok | [Short-Form Video Hook Generator](skills/video/short-form-video-hook-generator.md), [Video Script Writer](skills/video/video-script-writer.md) |
-| YouTube | [Video Script Writer](skills/video/video-script-writer.md), [YouTube-to-Social Repurposer](skills/repurposing/youtube-to-social-repurposer.md) |
+| YouTube | [Video Script Writer](skills/video/video-script-writer.md), [YouTube-to-Social Repurposer](skills/repurposing/youtube-to-social-repurposer.md), [Long-Form to Clips Planner](skills/video/long-form-to-clips-planner.md) |
 | Threads | [Multi-Platform Content Adapter](skills/repurposing/multi-platform-content-adapter.md) |
 | Reddit | [Multi-Platform Content Adapter](skills/repurposing/multi-platform-content-adapter.md) *(see its Reddit-specific norms)* |
 | Facebook | [Multi-Platform Content Adapter](skills/repurposing/multi-platform-content-adapter.md) |
@@ -156,16 +156,21 @@ depends on the inputs and source material you give it.
 | [Content Strategy](skills/content-strategy/) | 5 | Brand voice, pillars, calendars, briefs, launch planning |
 | [Research](skills/research/) | 3 | Pain points, idea validation, claim verification |
 | [Writing](skills/writing/) | 3 | Platform-native writing and storytelling |
-| [Video](skills/video/) | 2 | Hooks and scripts for short- and long-form video |
-| [Images and Creative](skills/images/) | 1 | Carousel and visual structure |
+| [Video](skills/video/) | 3 | Hooks, scripts, and clip planning for short- and long-form video |
+| [Images and Creative](skills/images/) | 2 | Carousel and single-graphic visual structure |
 | [Content Repurposing](skills/repurposing/) | 3 | Video/blog to social, multi-platform adaptation |
 | [Publishing](skills/publishing/) | 2 | Review, approval, cross-platform formatting |
 | [Analytics and Optimization](skills/analytics/) | 3 | Experiments, performance insight, weekly review |
 | [Engagement and Community](skills/engagement/) | 2 | Comment analysis, reply drafting |
 
-24 skills today. See [docs/quality-standards.md](docs/quality-standards.md)
+26 skills today. See [docs/quality-standards.md](docs/quality-standards.md)
 for what **Featured**, **Verified**, and **Community** labels mean as this
 grows.
+
+A machine-readable [`index.json`](index.json) is generated from every
+skill's frontmatter (via [`scripts/generate_index.py`](scripts/generate_index.py))
+and validated in CI — useful if you're building search, a website, or
+tooling on top of this repository instead of browsing it by hand.
 
 ## Agent compatibility
 
@@ -231,6 +236,10 @@ ReplyNodes is optional. Every skill and workflow in this repository is
 useful without it — this section exists because publishing is a real step
 in the lifecycle this repo covers, and ReplyNodes is the specific tool we
 build and can speak to directly.
+
+See [docs/mcp-quickstart.md](docs/mcp-quickstart.md) for a technical
+walkthrough — setup, available tools, and where it fits relative to the
+[publishing](skills/publishing/) skills above.
 
 ## Community
 

@@ -54,7 +54,10 @@ entry in this repository is held to.
 3. Fill in every section — see [docs/skill-format.md](docs/skill-format.md)
    for what each one should contain.
 4. Add your skill to that category's `README.md` table.
-5. Open a pull request using the pull request template. For a new skill, you
+5. Run `python3 scripts/generate_index.py` and commit the updated
+   `index.json` — this also validates your frontmatter and will error if a
+   required field is missing or `category` doesn't match the directory.
+6. Open a pull request using the pull request template. For a new skill, you
    can also open an issue first using the **Skill submission** template if
    you want early feedback on the idea.
 

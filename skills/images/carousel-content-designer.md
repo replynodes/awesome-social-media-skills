@@ -90,3 +90,4 @@ workflow to produce.
 
 - [`blog-to-multi-platform-repurposer`](../repurposing/blog-to-multi-platform-repurposer.md) — common source for carousel content
 - [`multi-platform-content-adapter`](../repurposing/multi-platform-content-adapter.md) — adapts the same idea into text-only formats
+- [`social-graphic-prompt-builder`](social-graphic-prompt-builder.md) — the single-graphic equivalent for one quote or stat instead of a sequence
