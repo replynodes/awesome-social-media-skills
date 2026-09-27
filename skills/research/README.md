@@ -8,6 +8,7 @@ before ideas get written or claims get published.
 | [Audience Pain-Point Researcher](audience-pain-point-researcher.md) | Synthesizes ranked pain points from raw audience source material |
 | [Social Content Idea Validator](social-content-idea-validator.md) | Screens an idea for relevance, specificity, differentiation, and evidence |
 | [Content Claim Verifier](content-claim-verifier.md) | Checks a draft's factual claims against source material |
+| [Jev Social Research](jev-social-research.md) | Captures source-linked Instagram, TikTok, or LinkedIn evidence through bounded Jev decisions and the local `socai` CLI |
 
 ## Typical order
 
