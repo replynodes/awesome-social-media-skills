@@ -1,6 +1,6 @@
 {
   "generated_by": "scripts/generate_index.py",
-  "skill_count": 26,
+  "skill_count": 27,
   "skills": [
     {
       "name": "Performance Insight Analyzer",
@@ -459,6 +459,33 @@
       ],
       "quality_label": "community",
       "path": "skills/research/content-claim-verifier.md"
+    },
+    {
+      "name": "Jev Social Research",
+      "slug": "jev-social-research",
+      "description": "Runs read-only Instagram, TikTok, or LinkedIn research through bounded Jev decisions and returns source-linked evidence with explicit gaps.",
+      "version": "0.1.8",
+      "author": "socai-io (project maintainer)",
+      "license": "MIT",
+      "category": "research",
+      "platforms": [
+        "instagram",
+        "tiktok",
+        "linkedin"
+      ],
+      "agent_compatibility": [
+        "agent-agnostic",
+        "codex-compatible"
+      ],
+      "tags": [
+        "social-research",
+        "evidence",
+        "browser",
+        "jev",
+        "socai"
+      ],
+      "quality_label": "community",
+      "path": "skills/research/jev-social-research.md"
     },
     {
       "name": "Social Content Idea Validator",
