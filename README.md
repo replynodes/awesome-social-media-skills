@@ -218,6 +218,10 @@ so an agent that has drafted and had content approved using the skills
 above can hand it off to be published or scheduled without a manual
 copy-paste step.
 
+[BulkPublish](https://app.bulkpublish.com/docs) is another publishing layer
+for these workflows, exposing content creation, adaptation, scheduling,
+cross-channel publishing, and analytics through API and MCP access.
+
 ```text
 Research
   ↓
