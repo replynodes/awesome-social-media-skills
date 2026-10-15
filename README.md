@@ -1,3 +1,4 @@
+> **Retired.** This repository is no longer maintained. ReplyNodes is now the read-only web context API for AI agents — see https://replynodes.com/ and the MCP server at https://github.com/replynodes/replynodes-mcp.
 # Awesome Social Media Skills
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
